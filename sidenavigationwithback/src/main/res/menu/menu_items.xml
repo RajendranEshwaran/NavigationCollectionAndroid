@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/camera_menu_item"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="Camera" />
+    <item
+        android:id="@+id/video_menu_item"
+        android:icon="@drawable/ic_personal_video_black_24dp"
+        android:title="Video" />
+    <item
+        android:id="@+id/music_menu_item"
+        android:icon="@drawable/ic_music_video_black_24dp"
+        android:title="Music" />
+    <item
+        android:id="@+id/vgal_menu_item"
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:title="VideoGallery" />
+    <item
+        android:id="@+id/videocam_menu_item"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="VideoCam" />
+    <item
+        android:id="@+id/videooff_menu_item"
+        android:icon="@drawable/ic_videocam_off_black_24dp"
+        android:title="VideoOff" />
+</menu>

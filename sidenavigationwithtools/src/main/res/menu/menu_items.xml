@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_setting_item"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_favroute_item"
+        android:title="Favroute"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_notification_item"
+        android:title="Notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        app:showAsAction="never"/>
+</menu>

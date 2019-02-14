@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu_item"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/buss_menu_item"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="Bussiness" />
+    <item
+        android:id="@+id/dialcall_menu_item"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Dial" />
+    <item
+        android:id="@+id/contact_menu_iitem"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        android:title="Contact" />
+    <item
+        android:id="@+id/misscall_menu_item"
+        android:checkable="false"
+        android:icon="@drawable/ic_call_missed_black_24dp"
+        android:title="Misscalls" />
+</menu>
